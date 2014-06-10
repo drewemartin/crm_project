@@ -1,23 +1,23 @@
 require 'sinatra'
 
 get '/' do 
-	@crm_app_name = "My CRM"
+	@crm_app_name = "Drew Martin"
+	@current_time = Time.now
 	erb :index
 end
 
-#add new contacts
-get '/contacts/new' do
+# get '/contacts'
 
-end
+# end
 
-#view all contacts
-get '/contacts' do
+# get '/contacts/new' #add new contact
 
-end
+# end
 
-post '/contacts' do #this block uses post instead of get
-	puts params
-	contact = Contact.new(params[:first_name], params[:last_name], params[:email], params[:notes])
-	@@rolodex.add_contact(contact)
-	redirect('/contacts')
-end
+# get '/contacts/:id' #view a contact, this choice has to come last since it could overwrite others
+
+# end
+
+# get '/contacts/:id/edit' #find and edit unique contact
+
+# end
