@@ -1,4 +1,5 @@
 require 'sinatra'
+require_relative 'contact_class'
 
 get '/' do 
 	@crm_app_name = "Drew Martin"
