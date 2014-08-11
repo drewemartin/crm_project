@@ -1,4 +1,4 @@
-##Welcome to CRM w/ CSS
+##Welcome to CRM 
 
 This project is my first web app. It is modelled off a 'customer relations manager'.
 
@@ -9,7 +9,6 @@ This project is my first web app. It is modelled off a 'customer relations manag
 ##Specs
 
 * Made with Sinatra (infrastructure) 
-* Fonts provided by Google Fonts
 
 ##Creator
 
